@@ -86,21 +86,21 @@ export function StartPage() {
 								style={{
 									backgroundImage: `url(/slide${number}-back.jpg`,
 								}}
-								className='bg-no-repeat bg-center bg-cover absolute inset-0'
+								className='bg-no-repeat bg-center bg-cover absolute inset-0 optimisation'
 							></div>
 							<div
 								data-swiper-parallax='25%'
 								style={{
 									backgroundImage: `url(/slide${number}-middle.png`,
 								}}
-								className='bg-no-repeat bg-center bg-cover absolute inset-0'
+								className='bg-no-repeat bg-center bg-cover absolute inset-0 optimisation'
 							></div>
 							<div
 								style={{
 									backgroundImage: `url(/slide${number}-front.png`,
 								}}
 								data-swiper-parallax='15%'
-								className='bg-no-repeat bg-center bg-cover absolute inset-0'
+								className='bg-no-repeat bg-center bg-cover absolute inset-0 optimisation'
 							></div>
 						</SwiperSlide>
 					)

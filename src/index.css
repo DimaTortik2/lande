@@ -17,3 +17,6 @@ html{
 .my-text-transition {
 	transition: 1.5s ease-in-out;
 }
+.optimisation{
+	will-change: transform;
+}
