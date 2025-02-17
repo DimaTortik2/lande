@@ -53,7 +53,7 @@ export function HeroContent({
 				style={{
 					fontSize: `calc((1vh + 1vw) * ${textMultiply})`,
 				}}
-				className='p-4 w-full bg-[rgba(0,0,0,0.8)]'
+				className='p-4 w-full bg-[rgba(0,0,0,0.8)] rounded-3xl'
 			>
 				{children}
 			</div>
